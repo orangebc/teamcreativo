@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+@media only screen and (max-width: 2560px) {
+/* INDEX------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* SECCION1*/
+section#lines{
+	float: left;
+	height: auto;
+	width: 100%;
+	background-image: url(../images/linesback.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+.contriangulo{
+	float: left;
+	height: auto;
+	width: 24%;
+	margin-right: 38%;
+	margin-left: 38%;
+	margin-top: 280px;
+	position: relative;
+	margin-bottom: 200px;
+}
+.triangulo{
+	float: left;
+	height: auto;
+	width: 100%;
+	position: relative;
+	z-index: 11111;
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 4em;
+	font-weight: 100;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	position: absolute;
+	z-index: 111111;
+	margin-top: 190px;
+	line-height: 1em;
+}
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.7em;
+	font-weight: 100;
+	color: #FFFFFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	line-height: 0.8em;
+	margin-top: 330px;
+	position: absolute;
+	z-index: 111111;
+}
+.iconscroll{
+	float: left;
+	height: auto;
+	width: 1%;
+	margin-right: 49.5%;
+	margin-left: 49.5%;
+}
+.scrolldownblack{
+	font-family: 'Raleway', serif;
+	font-size: 0.9em;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 1.7em;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 90%;
+	padding-right: 0%;
+	padding-left: 0%;
+	margin-right: 5%;
+	margin-bottom: 100px;
+	margin-left: 5%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+}
+.circulo{
+	float: left;
+	width: 84%;
+	position: absolute;
+	z-index: 99999;
+	margin-top: 80px;
+	margin-right: 8%;
+	margin-left: 2%;
+}
+#circle {
+	width: 80%;
+	height: auto;
+	-webkit-border-radius: 80%;
+	-webkit-animation-name: spin;
+	-webkit-animation-duration: 3500ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: spin;
+	-moz-animation-duration: 3500ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: spin;
+	-ms-animation-duration: 3500ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	animation-name: spin;
+	animation-duration: 3500ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+/* SECCION 2 */
+article{
+	float: left;
+	height: auto;
+	width: 100%;
+
+}
+/* SOMOS */
+.somos{
+	sfloat: left;
+	height: 700px;
+	width: 96%;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-top: 160px;
+	padding-bottom: 150px;
+	float: left;
+}
+h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14em;
+	line-height: 0.9em;
+	margin-bottom: 15px;
+	font-weight: 900;
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 150px;
+	letter-spacing: -0.02em;
+}
+h3#bco{
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+	line-height: 0.9em;
+	margin-bottom: 0px;
+	font-weight: 100;
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+}
+.line{
+	float: left;
+	width: 2%;
+	margin-right: 49%;
+	margin-left: 49%;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #F00;
+	height: 1px;
+	margin-top: 20px;
+}
+p.bco{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+	line-height: 1.8em;
+	font-weight: 300;
+	text-align: center;
+	color: #FFF;
+	margin-top: 30px;
+	float: left;
+	height: auto;
+	width: 60%;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.creatividad{
+	float: left;
+	height: 800px;
+	width: 96%;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-top: 160px;
+	padding-bottom: 100px;
+	background-color: rgba(0,0,0,0.71);
+}
+/* PORTAFOLIO */
+.img1{
+	float: left;
+	height: auto;
+	width: 100%;
+}
+.img2{
+	float: left;
+	height: auto;
+	width: 50%;
+}
+.img4{
+	float: left;
+	height: auto;
+	width: 25%;
+}
+/* SERVICIOS */
+.servicios360{
+	float: left;
+	height: 800px;
+	width: 96%;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-top: 160px;
+	padding-bottom: 100px;
+	background-color: rgba(0,0,0,0.85);
+}
+}
